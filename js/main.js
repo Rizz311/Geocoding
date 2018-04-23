@@ -1,10 +1,16 @@
 function initMap() {
   var map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 8,
+    zoom: 12,
     center: {
-      lat: -34.397,
-      lng: 150.644
+      lat: 42.3601,
+      lng: -71.0589
     }
+  })
+  .then(function(response){
+    console.log(response);
+  });
+  .catch(function(error){
+    console.log(error);
   });
   var geocoder = new google.maps.Geocoder();
 
