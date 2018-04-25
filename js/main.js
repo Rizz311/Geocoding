@@ -11,6 +11,11 @@ function initMap() {
   document.getElementById('submit').addEventListener('click', function() {
     geocodeAddress(geocoder, map);
   });
+  document.getElementById("floating-panel").addEventListener("submit", function(e){
+    geocodeAddress(geocoder, map);
+        e.preventDefault();
+
+    });
 }
 
 function geocodeAddress(geocoder, resultsMap) {
@@ -24,11 +29,14 @@ function geocodeAddress(geocoder, resultsMap) {
         map: resultsMap,
         position: results[0].geometry.location
       });
-      alert(results[0].geometry.location.lat());
+    //  alert(results[0].geometry.location.lat());
       var lat = results[0].geometry.location.lat()
       var lng = results[0].geometry.location.lng()
-      document.getElementById('lat').innerHTML = lat
-      document.getElementById('lng').innerHTML = lng
+      var longAddress = results[0].formatted_address
+      document.getElementById('lat').innerHTML = 'latitude: ' + lat
+      document.getElementById('lng').innerHTML = 'longitude: ' + lng
+      document.getElementById('longAddress').innerHTML = 'Address: ' + longAddress
+      document.getElementById('results').style='display:block;';
     } else {
       alert('Geocode was not successful for the following reason: ' + status);
     }

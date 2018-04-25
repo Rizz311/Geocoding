@@ -8,21 +8,40 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+}
+
+body {
+  background-color: #9CD7FF;
 }
 
 #floating-panel {
-  position: absolute;
-  top: 10px;
-  left: 25%;
   z-index: 5;
-  background-color: #fff;
   padding: 5px;
-  border: 1px solid #999;
   text-align: center;
   font-family: 'Roboto', 'sans-serif';
   line-height: 30px;
   padding-left: 10px;
+}
+
+p {
+  font-size: 20px;
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+form {
+  margin: 10px auto;
+}
+
+#results {
+  display: none;
+  background-color: #ADF7AE;
+  border: 1px solid black;
+  width: 40%;
+  margin: 10px auto;
 }

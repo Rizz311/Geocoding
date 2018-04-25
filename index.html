@@ -9,17 +9,20 @@
 </head>
 
 <body>
-  <div id="floating-panel">
+  <form id="floating-panel" action="" method="post">
     <input id="address" type="textbox" placeholder="Enter a address">
     <input id="submit" type="button" value="Geocode">
-  </div>
+  </form>
   <div id="map"></div>
   <section id="results">
     <ul>
+      <li id="longAddress"></li>
       <li id="lat"></li>
       <li id="lng"></li>
     </ul>
   </section>
+  <p>Hello and thanks for viewing my google maps geocoder. With this you can enter in a location, which will center you on that location, and give you back the latitude, as well as the longitude. Please enjoy and use to your hearts content. Some tech I used
+    is HTML, CSS, vanilla Javascript, and Google Maps API.</p>
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCOD-MqDXNDFnuUUX9AH97CLeoF9Hjv3Hc&callback=initMap"></script>
   <script type="text/javascript" src="js/main.js"></script>
 </body>
