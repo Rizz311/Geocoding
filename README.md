@@ -11,7 +11,7 @@
 
 # Geocoder
 
-I made a geocoder to allow you to get the latitude and longitude. As well as the location in a map.
+Simple app which accepts an address from the user and then displays the latitude, longitude, and location on a map. Uses the google geocoding and maps apis.
 
 **Link to project:** https://github.com/Rizz311/Geocoding
 
