@@ -1,7 +1,7 @@
 ## Installation
 
 1. Clone repo
-2. Open index.html in browser.
+2. Open index.html in web browser.
 
 ## Usage
 
