@@ -1,7 +1,7 @@
 ## Installation
 
 1. Clone repo
-2. run `npm install`
+2. Open index.html in browser.
 
 ## Usage
 
