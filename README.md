@@ -21,13 +21,13 @@ Simple app which accepts an address from the user and then displays the latitude
 
 **Tech used:** HTML, CSS, JavaScript, Google Map API
 
-I am using the Google Map API and connecting it to a form I made it will take in an address and allow the user to either use enter or clicking the submit to get a result.
+I am using the Google Maps API and connecting it to a form I made. It will take in an address and allow the user to either use enter or clicking the submit to get a result.
 
 ## Optimizations
 I am still learning about the Google Maps API and I want to incorporate an autocompleter to help get an accurate address entry.
 
 ## Lessons Learned:
-I have learned some useful knowledge of the Google Maps API and how to use forms and other outside elements to with the Google Maps API.
+I have learned some useful knowledge of the Google Maps API and how to use forms and other outside elements to work with the Google Maps API.
 
 ## Examples:
 Take a look at these couple examples that I have in my own portfolio:
